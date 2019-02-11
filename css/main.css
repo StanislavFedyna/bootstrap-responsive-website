@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-*{
+* {
   outline: none;
 }
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
 }
 
-header{
+header {
   position: relative;
   z-index: 999999;
 }
 
-p{
+p {
   font-size: 1.15rem;
 }
-.navbar{
+
+.navbar {
   background: transparent !important;
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -24,7 +25,8 @@ p{
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
-.navbar.scrolled{
+
+.navbar.scrolled {
   background: #000 !important;
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -33,7 +35,8 @@ p{
   -o-transition: 0.5s;
 }
 
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav{
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav {
   color: #000;
   background: #fff;
 }
@@ -44,21 +47,20 @@ p{
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(255,255,255,1)
+  color: rgba(255, 255, 255, 1)
 }
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus,
-.navbar-light .navbar-brand:visited
-{
-  color: rgba(0, 0, 0, 1);
+.navbar-light .navbar-brand:visited {
+  color: #fff;
   font-size: 2.5rem;
   font-weight: 600;
 
 }
 
-.banner{
+.banner {
   position: relative;
   top: 0;
   left: 0;
@@ -69,7 +71,7 @@ p{
   margin-bottom: 0;
 }
 
-.banner:before{
+.banner:before {
   content: '';
   position: absolute;
   top: 0;
@@ -80,26 +82,26 @@ p{
   pointer-events: none;
 }
 
-.banner:after{
+.banner:after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 400px;
-  background: linear-gradient(360deg,#000, transparent);
+  background: linear-gradient(360deg, #000, transparent);
   pointer-events: none;
 }
 
-.height100p{
+.height100p {
   height: 100vh;
 }
 
-.h100{
+.h100 {
   height: 100%;
 }
 
-.contentBox{
+.contentBox {
   position: relative;
   display: flex;
   justify-content: center;
@@ -108,18 +110,70 @@ p{
   z-index: 10;
 }
 
-.contentBox h1{
+.contentBox h1 {
   font-weight: 800;
   color: #fff;
   text-transform: uppercase;
   font-size: 5rem;
 }
 
-.contentBox p{
+.contentBox p {
   color: #fff;
   font-size: 1.3rem;
 }
 
-.sec1{
-  
+.sec1 {
+  padding: 100px 0;
+  background: #000;
+}
+
+.headerText {
+  color: #fff;
+}
+
+.headerText h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.placeBox {
+  position: relative;
+  min-width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  background: #000;
+  margin-top: 30px;
+}
+
+.placeBox .imgBx {
+  width: 100%;
+  height: 100%;
+}
+
+.placeBox .imgBx img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.placeBox .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: baseline;
+  align-items: flex-end;
+}
+
+.placeBox .content h3 {
+  position: relative;
+  margin: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, .95);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
 }
