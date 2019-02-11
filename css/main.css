@@ -35,7 +35,7 @@ p {
   -o-transition: 0.5s;
 }
 
-.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav {
   color: #000;
   background: #fff;
@@ -71,7 +71,8 @@ p {
   margin-bottom: 0;
 }
 
-.banner:before {
+.banner:before,
+.sec2:before {
   content: '';
   position: absolute;
   top: 0;
@@ -82,7 +83,8 @@ p {
   pointer-events: none;
 }
 
-.banner:after {
+.banner:after,
+.sec2:after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -176,4 +178,52 @@ p {
   font-size: 20px;
   font-weight: 600;
   width: 100%;
+
+}
+
+.placeBox .content h3 span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sec2 {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  background: url(../img/bg-3.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.sec2 .adventure-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.sec2 .adventure-center h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 4.5rem;
+}
+
+.btnD1 {
+  border: 2px solid #fff;
+  color: #000;
+  background: #fff;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  padding: 15px 50px;
+  font-size: 1.15rem;
+  outline: none;
+  font-weight: 500;
+  margin-top: 20px;
 }
