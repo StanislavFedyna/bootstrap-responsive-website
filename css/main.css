@@ -1,295 +1,264 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-*
-{
-    outline: none;
+* {
+  outline: none;
 }
 
-body
-{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
-header
-{
-    position: relative;
-    z-index: 999999;
+header {
+  position: relative;
+  z-index: 999999;
 }
 
-p
-{
-    font-size: 1.15rem;
+p {
+  font-size: 1.15rem;
 }
 
-.navbar
-{
-    -webkit-transition: .5s;
-       -moz-transition: .5s;
-        -ms-transition: .5s;
-         -o-transition: .5s;
-            transition: .5s;
+.navbar {
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 
-    background: transparent !important;
+  background: transparent !important;
 }
 
-.navbar.scrolled
-{
-    -webkit-transition: .5s;
-       -moz-transition: .5s;
-        -ms-transition: .5s;
-         -o-transition: .5s;
-            transition: .5s;
+.navbar.scrolled {
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 
-    background: #000 !important;
+  background: #000 !important;
 }
 
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav
-{
-    color: #000;
-    background: #fff;
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav {
+  color: #000;
+  background: #fff;
 }
 
-.navbar-light .navbar-nav .nav-link
-{
-    color: rgba(255, 255, 255, .8);
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, .8);
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus
-{
-    color: rgba(255, 255, 255, 1);
+.navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 1);
 }
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus,
-.navbar-light .navbar-brand:visited
-{
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #fff;
+.navbar-light .navbar-brand:visited {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
 }
 
-.banner
-{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    margin-bottom: 0;
-    background: url(../img/header-bg.jpg);
-    background-size: cover;
+.banner {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 0;
+  background: url(../img/header-bg.jpg);
+  background-size: cover;
 }
 
 .banner:before,
 .sec2:before,
-.contact:before
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 400px;
-    content: '';
-    pointer-events: none;
-    background: linear-gradient(#000, transparent);
+.contact:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  content: '';
+  pointer-events: none;
+  background: linear-gradient(#000, transparent);
 }
 
 .banner:after,
 .sec2:after,
-.contact:after
-{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 400px;
-    content: '';
-    pointer-events: none;
-    background: linear-gradient(360deg, #000, transparent);
+.contact:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  content: '';
+  pointer-events: none;
+  background: linear-gradient(360deg, #000, transparent);
 }
 
-.height100p
-{
-    height: 100vh;
+.height100p {
+  height: 100vh;
 }
 
-.h100
-{
-    height: 100%;
+.h100 {
+  height: 100%;
 }
 
-.contentBox
-{
-    position: relative;
-    z-index: 10;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.contentBox {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.contentBox h1
-{
-    font-size: 5rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #fff;
+.contentBox h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
 }
 
-.contentBox p
-{
-    font-size: 1.3rem;
-    color: #fff;
+.contentBox p {
+  font-size: 1.3rem;
+  color: #fff;
 }
 
-.sec1
-{
-    padding: 100px 0;
-    background: #000;
+.sec1 {
+  padding: 100px 0;
+  background: #000;
 }
 
-.headerText
-{
-    color: #fff;
+.headerText {
+  color: #fff;
 }
 
-.headerText h2
-{
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+.headerText h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
-.placeBox
-{
-    position: relative;
-    min-width: 300px;
-    height: 400px;
-    margin: 0 auto;
-    margin-top: 30px;
-    background: #000;
+.placeBox {
+  position: relative;
+  min-width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: #000;
 }
 
-.placeBox .imgBx
-{
-    width: 100%;
-    height: 100%;
+.placeBox .imgBx {
+  width: 100%;
+  height: 100%;
 }
 
-.placeBox .imgBx img
-{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.placeBox .imgBx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.placeBox .content
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    justify-content: baseline;
-    align-items: flex-end;
+.placeBox .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: baseline;
+  align-items: flex-end;
 }
 
-.placeBox .content h3
-{
-    font-size: 20px;
-    font-weight: 600;
-    position: relative;
-    width: 100%;
-    margin: 0;
-    padding: 10px;
-    color: #fff;
-    background: rgba(0, 0, 0, .95);
+.placeBox .content h3 {
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, .95);
 }
 
-.placeBox .content h3 span
-{
-    font-size: 16px;
-    font-weight: 500;
+.placeBox .content h3 span {
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.sec2
-{
-    position: relative;
-    height: 100vh;
-    text-align: center;
-    color: #fff;
-    background: url(../img/adventure-section-bg.jpg);
-    background-size: cover;
+.sec2 {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  background: url(../img/adventure-section-bg.jpg);
+  background-size: cover;
 }
 
-.sec2 .adventure-center
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-       -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-         -o-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+.sec2 .adventure-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.sec2 .adventure-center h2
-{
-    font-size: 4.5rem;
-    font-weight: 800;
-    text-transform: uppercase;
+.sec2 .adventure-center h2 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
-.btnD1
-{
-    font-size: 1.15rem;
-    font-weight: 500;
-    margin-top: 20px;
-    padding: 15px 50px;
-    color: #000;
-    border: 2px solid #fff;
-    -webkit-border-radius: 50px;
-       -moz-border-radius: 50px;
-            border-radius: 50px;
-    outline: none;
-    background: #fff;
-        -ms-border-radius: 50px;
-         -o-border-radius: 50px;
+.btnD1 {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-top: 20px;
+  padding: 15px 50px;
+  color: #000;
+  border: 2px solid #fff;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  outline: none;
+  background: #fff;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
-.blog{
+.blog {
   position: relative;
   padding: 100px 0;
   background: #000;
 }
 
-.blogpost{
+.blogpost {
   position: relative;
   width: 100%;
   margin-top: 30px;
   background: #fff;
 }
 
-.blogpost .imgBx{
+.blogpost .imgBx {
   height: 400px;
 
 }
 
-.blogpost .imgBx img{
+.blogpost .imgBx img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.blogpost .content{
+.blogpost .content {
   padding: 15px;
 }
 
-.blogpost .content h1{
+.blogpost .content h1 {
   margin: 0;
   padding: 0 0 10px;
   font-weight: 600;
@@ -309,10 +278,45 @@ p
   float: right;
 }
 
-.contact{
+.contact {
   position: relative;
   padding: 100px 0;
   background: url(../img/form-bg-4.jpg);
   background-size: cover;
   min-height: 100vh;
+}
+.contact form{
+position: relative;
+z-index: 1000;
+}
+
+.contact .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, .2);
+  height: 50px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  background: rgba(0, 0, 0, .6);
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.contact .form-control:focus,
+.contact .form-control:hover {
+
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+  box-shadow: none;
+}
+
+.contact .textarea {
+  min-height: 100px;
+}
+
+.contact label {
+  color: #fff;
 }
