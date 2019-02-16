@@ -4,11 +4,15 @@
 {
     outline: none;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 body
 {
     font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth;
+    
+
 }
 
 header
@@ -42,11 +46,7 @@ p
     background: #000 !important;
 }
 
-.navbar-light .navbar-nav .nav-item:nth-of-type(1) .nav-link
-{
-    color: #000;
-    background: #fff;
-}
+
 
 .navbar-light .navbar-nav .active > .nav-link:hover
 {
@@ -403,6 +403,7 @@ footer
 .sci li a:hover
 {
     color: #fff;
+    text-decoration: none;
 }
 
 .cpryt
@@ -412,8 +413,19 @@ footer
     color: #777;
 }
 
-.cpryt a,
-.cpryt:hover
+.cpryt a
 {
-    color: #fff;
+    color: #777;
+    text-decoration: none;
+}
+
+.cpryt:hover{
+  color: #fff;
+}
+
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 }
